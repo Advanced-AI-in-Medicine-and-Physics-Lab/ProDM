@@ -3,8 +3,8 @@
 Coronary artery calcium (CAC) scoring from chest CT helps refine cardiovascular
 risk estimation, but accurate quantification depends on clean delineation of
 calcified lesions. ECG-gated cardiac CT minimizes motion artifacts yet is not
-widely available, while routine **non-gated** chest CT — an accessible alternative
-for incidental CAC — suffers from more severe cardiac and respiratory motion.
+widely available, while routine **non-gated** chest CT is an accessible alternative
+for incidental CAC, it suffers from more severe cardiac and respiratory motion.
 **ProDM** is a generative diffusion framework that restores motion-free calcified
 lesions from non-gated CT, improving CAC scoring accuracy, lesion fidelity, and
 risk stratification.
@@ -29,5 +29,5 @@ under [`src/`](src/).
 
 ## Note
 
-The underlying diffusion model (BBDM) package is not vendored here — see
+The underlying diffusion model (BBDM) package is not vendored here, see
 [`src/README.md`](src/README.md) for obtaining it and placing it under `src/model/`.
